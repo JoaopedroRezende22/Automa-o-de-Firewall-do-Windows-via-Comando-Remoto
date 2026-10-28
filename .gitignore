@@ -1,0 +1,64 @@
+# =====================================
+# PYTHON
+# =====================================
+
+# Arquivos de cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos de testes e cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =====================================
+# VARIÁVEIS DE AMBIENTE
+# =====================================
+
+# Arquivos com senhas, tokens e chaves
+.env
+.env.*
+!.env.example
+
+# Certificados e chaves privadas
+*.key
+*.pem
+*.pfx
+*.p12
+
+# =====================================
+# VISUAL STUDIO CODE
+# =====================================
+
+.vscode/
+
+# =====================================
+# WINDOWS
+# =====================================
+
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =====================================
+# LOGS
+# =====================================
+
+*.log
+logs/
+
+# =====================================
+# ARQUIVOS TEMPORÁRIOS
+# =====================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
